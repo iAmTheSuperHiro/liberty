@@ -1,6 +1,6 @@
 /* Override some defaults */
 html, body {
-	background-color: #d78d73;
+	background-color: #eee;
 }
 body {
 	padding-top: 40px;
@@ -11,9 +11,6 @@ body {
 section {
 	padding-top: 60px;
 }
-section.top {
-	padding-top: 0px;
-}
 section >.row {
 	margin-bottom: 10px;
 }
@@ -21,7 +18,7 @@ footer {
 	border: none;
 }
 .content {
-	background-color: #eee;
+	background-color: #fff;
 	padding: 20px;
 	margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
 	-webkit-border-radius: 6px;
@@ -30,10 +27,16 @@ footer {
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	        box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	   -moz-box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
 .page-header {
 	padding: 20px 20px 10px;
 	margin: -20px -20px 20px;
+}
+.topbar {
+	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	   -moz-box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
 .topbar .btn {
 	border: 0;
@@ -66,11 +69,12 @@ footer {
 	color: #fff;
 	font-weight: bold;
 }
+/* from(#c1372f), to(#d78d73) */
 .masthead {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#c1372f), to(#d78d73));
-	background-image: -webkit-linear-gradient(#c1372f, #d78d73);
-	background-image: -moz-linear-gradient(#c1372f, #d78d73);
-	background-image: -o-linear-gradient(top, #c1372f, #d78d73);
-	background-image: -khtml-gradient(linear, left top, left bottom, from(#c1372f), to(#d78d73));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1372f', endColorstr='#d78d73', GradientType=0); /* IE8 and down */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#c1372f), to(#eee));
+	background-image: -webkit-linear-gradient(#c1372f, #eee);
+	background-image: -moz-linear-gradient(#c1372f, #eee);
+	background-image: -o-linear-gradient(top, #c1372f, #eee);
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#c1372f), to(#eee));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1372f', endColorstr='#eee', GradientType=0); /* IE8 and down */
 }

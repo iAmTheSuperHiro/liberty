@@ -28,10 +28,14 @@
 				<ul class="nav">
 					<li class="active"><a href="#overview">Overview</a></li>
 					<li><a href="#about">About</a></li>
+					<li><a href="#about">Customers</a></li>
+					<li><a href="#about">Plans</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<form class="pull-right" action="">
-					<input type="text" placeholder="Search" />
+					<input class="input-small" type="text" placeholder="Username">
+					<input class="input-small" type="password" placeholder="Password">
+					<button class="btn" type="submit">Sign in</button>
 				</form>
 			</div>
 		</div>
@@ -48,11 +52,15 @@
 			</div><!-- /container -->
 		</div>
 	</header>
-
+	
 	<div class="container">
 		<div class="content">
 
-			<section id="overview" class="top">
+			<div>
+				<img src="./images/steps.png" alt="Steps" />
+			</div>
+
+			<section id="overview">
 				<div class="page-header">
 					<h1>About messaliberty <small>Brief history, browser support, and more</small></h1>
 				</div>
@@ -67,32 +75,93 @@
 						<p>Bootstrap is tested and supported in major modern browsers like Chrome, Safari, Internet Explorer, and Firefox.</p>
 					</div>
 					<div class="span-one-third">
-						<h3>What's included</h3>
+						<h3>What's new</h3>
 						<p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
 						<ul>
-							<li><span class="label">New in 1.3</span><a href="./javascript.html">Javascript plugins</a></li>
+							<li><span class="label">New in 1.3</span><a href="./javascript.html"> Javascript plugins</a></li>
+							<li><span class="label success">New</span> Cool feature</li>
 						</ul>
 					</div>
 				</div><!-- /row -->
 			</section>
-		
-			<section id="contact">
+			
+			<section id="customers">
 				<div class="page-header">
-					<h1>About Bootstrap <small>Brief history, browser support, and more</small></h1>
+					<h1>Our customers <small>Brief history, browser support, and more</small></h1>
 				</div>
-				<dvi class="row">
-					<div>
-						<h2>Hello</h2>
-						<p>hello hello</p>
+				<div class="row">
+					<div class="span16">
+						<blockquote>
+							That was awesome!
+							<small>messaliberty</small>
+						</blockquote>
 					</div>
 				</div><!-- /row -->
 			</section>
-			
-			<footer>
-				<p>&copy; messaliberty 2011</p>
-			</footer>
+
+			<section id="plans">
+				<div class="page-header">
+					<h1>Plan and pricing <small>Brief history, browser support, and more</small></h1>
+				</div>
+				<div class="row">
+					<div class="span16">
+						<table class="zebra-striped">
+							<tr>
+								<th>#</th>
+								<th>Basic</th>
+								<th>Normal</th>
+								<th>Premium</th>
+							</tr>
+							<tr>
+								<td>Feature 1</td>
+								<td>Yes</td>
+								<td>Yes</td>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<td>Feature 2</td>
+								<td>N/A</td>
+								<td>Yes</td>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<td>Feature 3</td>
+								<td>N/A</td>
+								<td>N/A</td>
+								<td>Yes</td>
+							</tr>
+						</table>
+						<p>
+							<a href="#" class="btn large primary">Buy</a>
+						</p>
+						<div class="well">hello</div>
+					</div>
+				</div><!-- /row -->
+			</section>
+
+			<section id="contact">
+				<div class="page-header">
+					<h1>Contact <small>Brief history, browser support, and more</small></h1>
+				</div>
+				<div class="row">
+					<div class="span16">
+						<p>hello</p>
+						<ul class="media-grid">
+							<li><a href="#"><img src="./images/hiro.jpg" alt="hiro" class="thumbnail" /></a></li>
+							<li><a href="#"><img src="./images/hiro.jpg" alt="hiro" class="thumbnail" /></a></li>
+							<li><a href="#"><img src="./images/hiro.jpg" alt="hiro" class="thumbnail" /></a></li>
+							<li><a href="#"><img src="./images/hiro.jpg" alt="hiro" class="thumbnail" /></a></li>
+						</ul>
+					</div>
+				</div><!-- /row -->
+			</section>
 
 		</div><!-- /content -->
+
+		<footer>
+			<p>&copy; messaliberty 2011</p>
+		</footer>
+
 	</div><!-- /container -->
 
 </body>
